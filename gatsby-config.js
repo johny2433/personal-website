@@ -24,12 +24,20 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Gatsby Personal Portfolio`,
-        short_name: `Johny's Personal Portfolio`,
+        short_name: `Personal Portfolio`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#02aab0`,
         display: `standalone`,
         icon: 'src/images/favicon.png',
+      },
+      siteMetadata: {
+        title: 'Ion Popa Web Developer',
+        titleTemplate: '%s · Ion Popa Personal Portfolio',
+        description: '`Personal Website Built with Gatsby`',
+        url: 'https://ipwebsite.herokuapp.com', // No trailing slash allowed!
+        image: '/images/personal_website.jpg', // Path to your image you placed in the 'static' folder
+        twitterUsername: '@johny2458',
       },
     },
   ],
