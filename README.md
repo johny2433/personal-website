@@ -1,13 +1,13 @@
 Personal Portofolio Website
 
-⚡️ Modern UI Design + Reveal Animations\
-⚡️ One Page Layout built with React\
-⚡️ Styled with Bootstrap v4.3 + Custom SCSS\
-⚡️ Fully Responsive\
-⚡️ Configurable color scheme\
-⚡️ Image optimization with Gatsby\
-⚡️ Easy site customization\
-⚡️ Well organized documentation
+Modern UI Design + Reveal Animations
+One Page Layout built with React
+Styled with Bootstrap v4.3 + Custom SCSS
+Fully Responsive
+Configurable color scheme
+Image optimization with Gatsby
+Easy site customization
+Well organized documentation
 
 ```
 node@v10.16.0 or higher
@@ -17,17 +17,17 @@ gatsby-cli@2.8.22 or higher
 ```
 ---
 
-### STRUCTURE
+STRUCTURE
 
-# Hero Section
+ - Hero Section
 
-# About Section
+ - About Section
 
-# All the images must live inside the `src/images/` folder in order for Gatsby to show the images correctly.
+ - All the images must live inside the `src/images/` folder in order for Gatsby to show the images correctly.
 
-# Projects Section
+ - Projects Section
 
-# Contact Section
+ - Contact Section
 
-# Footer Section
+ - Footer Section
 
