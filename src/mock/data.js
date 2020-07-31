@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: `Ion's Personall Website`, // e.g: 'Name | Developer'
+  title: `Ion's Personal Website`, // e.g: 'Name | Developer'
   lang: 'EN, RU, RO', // e.g: en, es, fr, jp
   description: 'Welcome to my Personal Website', // e.g: Welcome to my website
 };
