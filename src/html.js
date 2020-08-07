@@ -4,7 +4,6 @@
 /* eslint-disable jsx-a11y/html-has-lang */
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Helmet } from 'react-helmet';
 
 export default function HTML({
   htmlAttributes,
@@ -24,13 +23,6 @@ export default function HTML({
       </head>
       <body {...bodyAttributes}>
         {preBodyComponents}
-        <div className="application">
-          <Helmet>
-            <meta charSet="utf-8" />
-            <title>Ion Popa`&apos`s Personal Website</title>
-            <link rel="canonical" href="https://ipwebsite.herokuapp.com/" />
-          </Helmet>
-        </div>
         <div key="body" id="___gatsby" dangerouslySetInnerHTML={{ __html: body }} />
         {postBodyComponents}
       </body>
